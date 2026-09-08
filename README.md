@@ -1,4 +1,4 @@
-# Packed Triangle Encoding for SIMD Arithmetic and Logic FHE
+# Packed Triangle Encoding for Homomorphic Machine Words
 
 This repository contains implementation and benchmark suite for the packed triangle encoding, together with
 re-implementations of the schemes it is compared against, all on one shared backend with an RNS-CKKS engine with NTT and hybrid key switching, the discrete-CKKS bootstrapping primitive, the arithmetic ring layer, the five schemes, the theory support routines for the slot capacity and the degree lower bounds, and the benchmark harness.
