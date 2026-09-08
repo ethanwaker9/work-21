@@ -1,0 +1,43 @@
+[triangle] n=8 r=1 c=4
+    {'words_per_ct': 64, 'amort_a2b_ms': 138.3796087175142, 'ok_a2b': True}
+[triangle] n=8 r=2 c=2
+    {'words_per_ct': 128, 'amort_a2b_ms': 65.39995410275878, 'ok_a2b': True}
+[triangle] n=8 r=4 c=1
+    {'words_per_ct': 256, 'amort_a2b_ms': 30.425169597947388, 'ok_a2b': True}
+[triangle] n=16 r=1 c=4
+    {'words_per_ct': 32, 'amort_a2b_ms': 585.6715169065865, 'ok_a2b': True}
+[triangle] n=16 r=2 c=2
+    {'words_per_ct': 64, 'amort_a2b_ms': 312.45246745675104, 'ok_a2b': True}
+[triangle] n=16 r=4 c=1
+    {'words_per_ct': 128, 'amort_a2b_ms': 143.22910124246846, 'ok_a2b': True}
+[triangle] n=32 r=1 c=4
+    {'words_per_ct': 16, 'amort_a2b_ms': 2501.5706249978393, 'ok_a2b': True}
+[triangle] n=32 r=2 c=2
+    {'words_per_ct': 32, 'amort_a2b_ms': 1155.7437122392002, 'ok_a2b': True}
+[triangle] n=32 r=4 c=1
+    {'words_per_ct': 64, 'amort_a2b_ms': 590.6161927050562, 'ok_a2b': True}
+[triangle] n=64 r=1 c=4
+    {'words_per_ct': 8, 'amort_a2b_ms': 9575.737025996204, 'ok_a2b': True}
+[triangle] n=64 r=2 c=2
+    {'words_per_ct': 16, 'amort_a2b_ms': 4441.386281250743, 'ok_a2b': True}
+[triangle] n=64 r=4 c=1
+    {'words_per_ct': 32, 'amort_a2b_ms': 2368.1506992143113, 'ok_a2b': True}
+[digit] n=8 mode=log
+    {'words_per_ct': 128, 'amort_mul_ms': 233.30355012512882, 'ok_mul': True}
+[digit] n=8 mode=seq
+    {'words_per_ct': 128, 'amort_mul_ms': 294.9664521474915, 'ok_mul': True}
+[digit] n=16 mode=log
+    {'words_per_ct': 64, 'amort_mul_ms': 529.0879531239625, 'ok_mul': True}
+[digit] n=16 mode=seq
+    {'words_per_ct': 64, 'amort_mul_ms': 697.3018710996257, 'ok_mul': True}
+[digit] n=32 mode=log
+    {'words_per_ct': 32, 'amort_mul_ms': 1033.3513541845605, 'ok_mul': True}
+[digit] n=32 mode=seq
+    {'words_per_ct': 32, 'amort_mul_ms': 1833.7939869670663, 'ok_mul': True}
+[digit] n=64 mode=log
+    {'words_per_ct': 16, 'amort_mul_ms': 2284.8147656186484, 'ok_mul': True}
+[digit] n=64 mode=seq
+    {'words_per_ct': 16, 'amort_mul_ms': 8008.948169241194, 'ok_mul': True}
+[cggi]
+[refhe]
+wrote results/main.json
